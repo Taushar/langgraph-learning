@@ -22,6 +22,7 @@ def chat_node(state: chatstate):
 
 
 checkpointer = MemorySaver()
+CONFIG = {'configurable': {'thread_id': 'thread-1'}}
 
 graph = StateGraph(chatstate)
 
